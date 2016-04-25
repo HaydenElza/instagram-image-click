@@ -26,5 +26,8 @@
         $(document).on("hover",$('._ovg3g'),function(){
             addOnclick();
         });
+        $(document).on("click",$('.coreSpriteLeftPaginationArrow'),function(){
+            addOnclick();
+        });
     });
 })();
