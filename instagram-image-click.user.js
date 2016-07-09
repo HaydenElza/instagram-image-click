@@ -5,7 +5,7 @@
 // @description  Click on images on instagram to open in new tab
 // @author       Hayden Elza
 // @match        https://www.instagram.com/*
-// @grant        http://code.jquery.com/jquery-latest.js
+// @require      https://code.jquery.com/jquery-latest.js
 // @updateURL    https://github.com/HaydenElza/instagram-image-click/raw/master/instagram-image-click.user.js
 // ==/UserScript==
 
