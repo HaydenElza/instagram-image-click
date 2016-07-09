@@ -1,7 +1,7 @@
 # Instagram Image Click
 Open Instagram image in new tab.
 
-[![](http://i.giphy.com/l0HlOuMGGmBdDSYE0.gif)](http://gph.is/29Yc53j)
+<iframe src="//giphy.com/embed/l0HlOuMGGmBdDSYE0" width="480" height="247" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
 ## Installation
 Install a userscript extension such as greasemonkey or tampermonkey:  
