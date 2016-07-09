@@ -1,7 +1,7 @@
 # Instagram Image Click
 Open Instagram image in new tab.
 
-[![](http://i.imgur.com/tl5cyZX.gif)](http://imgur.com/tl5cyZX)
+![](http://i.imgur.com/tl5cyZX.gif)
 
 ## Installation
 Install a userscript extension such as greasemonkey or tampermonkey:  
