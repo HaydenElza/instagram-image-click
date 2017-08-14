@@ -17,10 +17,11 @@
             var url = $(this).attr('src');
             console.log(url);
             if ($(this).hasClass("hasEvent")) {
-            } else {
-                $(this).on("click",function(){window.open(url,'_blank');});
-                $(this).addClass("hasEvent");
+                $(this).off();
             }
+            $(this).on("click",function(){window.open(url,'_blank');});
+            console.log(url);
+            $(this).addClass("hasEvent");
         });
     }
     $(document).ready(function() {
