@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Instagram Image Click
 // @namespace    http://elza.me
-// @version      1.0
+// @version      1.1
 // @description  Click on images on instagram to open in new tab
 // @author       Hayden Elza
 // @match        https://www.instagram.com/*
@@ -11,8 +11,8 @@
 
 (function() {
     function addOnclick() {
-        $('._si7dy').css("display","none");
-        var elements = $('._2di5p');
+        $('._9AhH0').css("display","none");
+        var elements = $('.FFVAD');
         elements.each(function() {
             var url = $(this).attr('src');
             console.log(url);
@@ -26,7 +26,7 @@
     }
     $(document).ready(function() {
         addOnclick();
-        $(document).on("hover",$('._2di5p'),function(){
+        $(document).on("hover",$('.FFVAD'),function(){
             addOnclick();
         });
         $(document).on("click",$('.coreSpriteLeftPaginationArrow'),function(){
